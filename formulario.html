@@ -1,24 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário_HTML</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <h1>Formulário de cadastro</h1>
     <form>
-        <label>Nome:</label>
-        <input type="text" placeholder="insira seu nome aqui" />
+        <label for="nome">Nome:</label>
+        <input type="text" style=color:black placeholder="insira seu nome aqui" />
         <br />
-        <label>E-mail:</label>
-        <input type="email" placeholder="insira seu e-mail aqui"/>
+        <label for="email">E-mail:</label>
+        <input type="email" style="color:black" placeholder="insira seu e-mail aqui"/>
         <br />
-        <label>Senha:</label>
-        <input type="email" placeholder="digite sua senha"/>
+        <label style="color:red" for="senha">Senha:</label>
+        <input type="password" style="color: red" id="senha" placeholder="Digite sua senha"/>
         <br />
-        <button>Cadastrar</button>
-
+        <button class="botaoenvio" type="submit">Cadastrar</button>
+        <button class="botaoapagar" type="reset">Apagar Dados</button>
     </form>
 </body>
 </html>
