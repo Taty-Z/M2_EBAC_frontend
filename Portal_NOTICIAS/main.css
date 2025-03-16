@@ -109,3 +109,19 @@ section h2 {
 }
 
 
+#cultura {
+    background-color: rgb(140, 200, 210);
+}
+
+#cultura article a {
+background-color: blue;
+}
+
+#mundo {
+    background-color: rosybrown;
+}
+
+#mundo article a {
+background-color: palevioletred;
+}
+
